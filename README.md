@@ -3,7 +3,7 @@
 This repository contains the official Pytorch implementation of our ICME 2023 paper.
 
 ## Dataset
-We collect a new dataset EBD for testing. Please download from this link if you plan to use it.
+We collect a new dataset EBD for testing. Please download from this link if you plan to use it. [EBD](https://pan.baidu.com/s/1H_X9SWXOZ7osTQaKjGP93w) 
 
 ## Pretrained Models
 We provide pretrained models of our DFFNet and D-DFFNet with three different training data as listed in our paper.
