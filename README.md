@@ -8,10 +8,10 @@ We collect a new dataset EBD for testing. Please download from this link if you 
 ## Pretrained Models
 We provide pretrained models of our DFFNet and D-DFFNet with three different training data as listed in our paper.
 
- Training data | CUHK1  | 表头
- ---- | ----- | ------  
- DFFNet  | 单元格内容 | 单元格内容 
- DFFNet  | 单元格内容 | 单元格内容   
+ Training data | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
+ ---- | ----- | ------  |  ------
+ DFFNet  |  |  |
+ D-DFFNet  |  |    |
 
 
 ## Results
