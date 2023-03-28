@@ -8,7 +8,7 @@ We collect a new dataset EBD for testing. Please download from this link if you 
 ## Pretrained Models
 We provide pretrained models of our DFFNet and D-DFFNet with three different training data as listed in our paper.
 
- Training data | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
+  | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
  ---- | ----- | ------  |  ------
  DFFNet  |  |  |
  D-DFFNet  |  |    |
@@ -17,9 +17,12 @@ We provide pretrained models of our DFFNet and D-DFFNet with three different tra
 ## Results
 We provide results on four test datasets. We use three different training data for fair comparison with previous works, here we provide all results related to the three different training data.
 
- Training data | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
+Datasets | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
  ---- | ----- | ------  |  ------
- DFFNet  |  |  |
- D-DFFNet  |  |    |
+ CUHK-TE-1  |  |  |
+ CUHK-TE-2 |  |    |
+ DUT |  |    |
+ CTCUG |  |    |
+ EBD |  |    |
 
 
