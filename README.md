@@ -17,5 +17,9 @@ We provide pretrained models of our DFFNet and D-DFFNet with three different tra
 ## Results
 We provide results on four test datasets. We use three different training data for fair comparison with previous works, here we provide all results related to the three different training data.
 
+ Training data | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
+ ---- | ----- | ------  |  ------
+ DFFNet  |  |  |
+ D-DFFNet  |  |    |
 
 
