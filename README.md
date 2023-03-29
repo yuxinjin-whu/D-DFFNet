@@ -10,8 +10,8 @@ We provide pretrained models of our DFFNet and D-DFFNet with three different tra
 
  ---- | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
  ---- | ----- | ------  |  ------
- DFFNet  |  [DFFNet](https://pan.baidu.com/s/1Sd_TDM92-iJ6gZLW15ANaw?pwd=90em)  | [D-DFFNet](https://pan.baidu.com/s/1coVPb2OtjJ8FnarqkWk7Cw?pwd=r6c5) |
- D-DFFNet  |  |    |
+ DFFNet  |  [DFFNet](https://pan.baidu.com/s/1Sd_TDM92-iJ6gZLW15ANaw?pwd=90em)  |  |
+ D-DFFNet  | [D-DFFNet](https://pan.baidu.com/s/1coVPb2OtjJ8FnarqkWk7Cw?pwd=r6c5) |    |
 
 
 ## Results
