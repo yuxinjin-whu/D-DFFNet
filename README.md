@@ -12,7 +12,7 @@ We collect a new dataset EBD for testing. Please download from this link if you 
  ---- | ----- | ------  |  ------
  DFFNet  |  [DFFNet](https://pan.baidu.com/s/1Sd_TDM92-iJ6gZLW15ANaw?pwd=90em)  | [DFFNet](https://pan.baidu.com/s/1AO06sJOiWojS_MFiT58DcA?pwd=ns0z) | [DFFNet]()
  D-DFFNet  | [D-DFFNet](https://pan.baidu.com/s/1coVPb2OtjJ8FnarqkWk7Cw?pwd=r6c5) | [D-DFFNet](https://pan.baidu.com/s/1fw7D6DzNbTNjeLwS-H72UQ?pwd=u7fs)   |[D-DFFNet](https://pan.baidu.com/s/1iKJED5w-obf6kiBBxhI0Ww?pwd=2y3i) 
- * Pretrained model for depth model: 
+ * Pretrained model for depth model: [midas_v21-f6b98070.pt](https://pan.baidu.com/s/1VA1yNifcZpy9bpTyygH0EA?pwd=dwo9)
 
 
 ## Results
