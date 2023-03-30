@@ -22,5 +22,13 @@ Traing Datasets | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
  ---- | ----- | ------  |  ------
  Results  |[Results](https://pan.baidu.com/s/19ov0M45uov7o-qbUJ_b7mw?pwd=9qil)|[Results](https://pan.baidu.com/s/18M5f8oJDYeyy7cWQef05SA?pwd=c3v7)  |[Results](https://pan.baidu.com/s/1rT_rQY9ybOKAVJLfxlmVlQ?pwd=zf26)
 
+## Code
+### Dependences
+* Pytorch
+* OpenCV
+* Numpy
+* PIL
+* glob
+
 
 
