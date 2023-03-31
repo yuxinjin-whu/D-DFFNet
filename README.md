@@ -24,6 +24,7 @@ Traing Datasets | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
 
 
 ## Code
+
 ### Dependences
 * Pytorch
 * OpenCV
@@ -31,5 +32,17 @@ Traing Datasets | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
 * PIL
 * glob
 
+### Training
+* Change dataset paths in data.py.
+* Download depth pretrained model and put it to /D-DFFNet/depth_pretrained/.
+* Change save_path in train_single.py and train_kd.py to your saving path.
+* Training in stage 1:
+`python train_single.py`
+* Training in stage 2:
+`python train_kd.py`
+
+
+
+### Testing
 
 
