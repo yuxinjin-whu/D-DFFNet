@@ -46,4 +46,7 @@ Traing Datasets | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
 * Set path in test.sh to the pretrained model.
 * `bash test.sh`
 
+## Contact
+If you have any questions, please contact jinyuxin@whu.edu.cn.
+
 
