@@ -47,6 +47,6 @@ Traing Datasets | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
 * `bash test.sh`
 
 ## Contact
-If you have any questions, please contact jinyuxin@whu.edu.cn.
+If you have any question or suggestion, please contact (Yuxin Jin jinyuxin@whu.edu.cn).
 
 
