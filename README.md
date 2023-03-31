@@ -10,9 +10,9 @@ We collect a new dataset EBD for testing. Please download from this link if you 
 
  Traing Datasets | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
  ---- | ----- | ------  |  ------
- DFFNet  |  [DFFNet](https://pan.baidu.com/s/1Sd_TDM92-iJ6gZLW15ANaw?pwd=90em)  | [DFFNet](https://pan.baidu.com/s/1AO06sJOiWojS_MFiT58DcA?pwd=ns0z) | [DFFNet]()
- D-DFFNet  | [D-DFFNet](https://pan.baidu.com/s/1coVPb2OtjJ8FnarqkWk7Cw?pwd=r6c5) | [D-DFFNet](https://pan.baidu.com/s/1fw7D6DzNbTNjeLwS-H72UQ?pwd=u7fs)   |[D-DFFNet](https://pan.baidu.com/s/1iKJED5w-obf6kiBBxhI0Ww?pwd=2y3i) 
- * Pretrained model for depth model: [midas_v21-f6b98070.pt](https://pan.baidu.com/s/1VA1yNifcZpy9bpTyygH0EA?pwd=dwo9)
+ DFFNet  |  [DFFNet](https://drive.google.com/file/d/10UhCeEEl7OYjwzHZZByPbe6WpxqnWtbR/view?usp=sharing)  | [DFFNet](https://drive.google.com/file/d/1GN-HZ_lSZg25iX8d0fEx0qFZKXjCEhwc/view?usp=sharing) | [DFFNet](https://drive.google.com/file/d/1qiSoClOHZ9jV6qcaTOr6-QSh0ySwCsaX/view?usp=sharing)
+ D-DFFNet  | [D-DFFNet]([https://pan.baidu.com/s/1coVPb2OtjJ8FnarqkWk7Cw?pwd=r6c5](https://drive.google.com/file/d/1BRWXt8xphFv6AQDZwan4umm9EX3X4E2x/view?usp=sharing)) | [D-DFFNet]([https://pan.baidu.com/s/1fw7D6DzNbTNjeLwS-H72UQ?pwd=u7fs](https://drive.google.com/file/d/1NmrA8amNLkI-QPIq_N0Ti36Su7ungMo1/view?usp=share_link))   |[D-DFFNet](https://drive.google.com/file/d/1hU81jbHG-55HmaSgb0_GXOKhRC-enL8Q/view?usp=sharing) 
+ * Pretrained model for depth model: [midas_v21-f6b98070.pt](https://drive.google.com/file/d/1puxWdaUYayZhjf9WGGCwhMfkapl71eeB/view?usp=sharing)
 
 
 ## Results
@@ -20,7 +20,7 @@ We provide results on four test datasets. Since we use three different training 
 
 Traing Datasets | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
  ---- | ----- | ------  |  ------
- Results  |[[Google drive]](https://drive.google.com/file/d/1ncVmYz26pmu_yS_J0Jbe15yvxJDQU3cS/view?usp=sharing) [[Baidu Link]](https://pan.baidu.com/s/14XGYOp87L9cJ7ysfOjseXA?pwd=z0fu)|[Results](https://drive.google.com/file/d/1tLC7zkD2oFu7hsjHA0w615rKqX6bgtAg/view?usp=share_link)  |[Results](https://pan.baidu.com/s/1rT_rQY9ybOKAVJLfxlmVlQ?pwd=zf26)
+ Results  |[[Google drive]](https://drive.google.com/file/d/1ncVmYz26pmu_yS_J0Jbe15yvxJDQU3cS/view?usp=sharing) |[Results](https://drive.google.com/file/d/1tLC7zkD2oFu7hsjHA0w615rKqX6bgtAg/view?usp=share_link)  |[Results](https://drive.google.com/file/d/1nfH4l-E2yZuxTd-qh3sRHtYcCZPJW_tR/view?usp=sharing)
 
 
 ## Code
