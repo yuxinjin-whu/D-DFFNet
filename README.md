@@ -47,14 +47,15 @@ Traing Datasets | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
 * `bash test.sh`
 
 ## Cite
-`
+
+```
 @inproceedings{jin2023depth,
   title={Depth and DOF Cues Make Better Defocus Blur Detection},
   author={Jin, Yuxin and Qian, Ming and Xiong, Jincheng and Xue, Nan and Xia, Gui-song},
   booktitle={ICME},
   year={2023},
 }
-`
+```
 
 ## Contact
 If you have any question or suggestion, please contact (Yuxin Jin jinyuxin@whu.edu.cn).
