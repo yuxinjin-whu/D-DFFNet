@@ -47,7 +47,8 @@ Traing Datasets | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
 * `bash test.sh`
 
 ## Acknowledgements
-Codes for depth model and depth pre-trained model are from [MiDaS](https://github.com/isl-org/MiDaS).
+Codes for depth model and depth pre-trained model are from [MiDaS](https://github.com/isl-org/MiDaS).\\
+Part of our code is based upon [EaNet](https://github.com/geovsion/EaNet) and [CPD](https://github.com/wuzhe71/CPD).
 
 ## Citation
 
