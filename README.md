@@ -26,9 +26,9 @@ Traing Datasets | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
 ## Code
 
 ### Dependences
-* Pytorch
-* OpenCV
-* Numpy
+* Pytorch 1.12.0
+* OpenCV 4.4.0
+* Numpy 1.21.2
 * PIL
 * glob
 
