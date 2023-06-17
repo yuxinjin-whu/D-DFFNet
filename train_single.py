@@ -33,11 +33,11 @@ parser.add_argument('--clip', type=float, default=0.5, help='gradient clipping m
 parser.add_argument('--loss',  type=str, default='ea') # bce + DOF-edge loss
 parser.add_argument('--beta',  type=float, default=0.5)
 
-parser.add_argument('--save_name', type=str)
+parser.add_argument('--save_name', type=str, default='DFFNet.pth')
 parser.add_argument('--train_dataset', type=str, default='Shi')
 parser.add_argument('--test_dataset', type=str, default='Shi') #CTCUG Shi EBD DUT
-parser.add_argument('--image_path',  type=str, default='/data/jyx/dbd/data/DBDdataset/shidatatset/image')
-parser.add_argument('--gt_path',  type=str, default='/data/jyx/dbd/data/DBDdataset/shidatatset/gt')
+parser.add_argument('--image_path',  type=str, default='./data/shidatatset/image')
+parser.add_argument('--gt_path',  type=str, default='./data/shidatatset/gt')
 opt = parser.parse_args()
 
 seed = 42
@@ -139,7 +139,7 @@ def train(train_loader, model, optimizer, epoch):
             format(datetime.now(), epoch, opt.epoch, loss_sum/len(train_loader), sum_mae/len(train_loader)))
 
 print("Let's go!")
-save_path = '/data/jyx/dbd/D-DFFNet/checkpoint/Ablation_study/DFFNet_ablation/'
+save_path = './checkpoint/'
 for epoch in range(1, opt.epoch):
     train(train_loader, model, optimizer, epoch)
 
