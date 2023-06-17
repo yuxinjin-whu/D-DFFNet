@@ -13,11 +13,11 @@ from data import get_loader
 from utils import eval_mae, F_score1, F_score
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--test_dataset', type=str, default='OnePic') #CTCUG Shi EBD DUT
+parser.add_argument('--test_dataset', type=str, default='Shi') #CTCUG Shi EBD DUT
 parser.add_argument('--pretrained', type=str) 
 parser.add_argument('--model', type=str, default='res') #vgg 
-parser.add_argument('--image_path',  type=str, default='/data/jyx/dbd/data/DBDdataset/shidatatset/image')
-parser.add_argument('--gt_path',  type=str, default='/data/jyx/dbd/data/DBDdataset/shidatatset/gt')
+parser.add_argument('--image_path',  type=str, default='./data/shidatatset/image')
+parser.add_argument('--gt_path',  type=str, default='./data/shidatatset/gt')
 opt = parser.parse_args()
 
 val_loader = get_loader(opt.image_path, opt.gt_path, 1, dataset=opt.test_dataset, mode='val', num_thread=8)
@@ -50,7 +50,7 @@ def test(val_loader, model):
             # # save images
             # dets = preds.cpu().numpy()[0][0]
             # dets = dets*255  
-            # image_path = os.path.join('/data/jyx/dbd/D-DFFNet/results/EBD/D-DFFNet(vgg)/',name[0].split('.')[0]+'.png')
+            # image_path = os.path.join('./results/EBD/D-DFFNet/',name[0].split('.')[0]+'.png')
             # print(image_path)
             # cv2.imwrite(image_path, dets)
 
