@@ -40,7 +40,7 @@ class ImageData(data.Dataset):
         self.preloadimg = preloadimg
         self.factor = factor
         # the same split with BTBNet, we borrow it from http://ice.dlut.edu.cn/ZhaoWenda/DBD.html 
-        train_names_file = open('/data/jyx/dbd/D-DFFNet_final/split.txt', mode='r')
+        train_names_file = open('split.txt', mode='r')
         image_path = []
         label_path = []
 
@@ -50,8 +50,8 @@ class ImageData(data.Dataset):
                 line = line.split('--')[1]
                 line1 = line.split('\n')[0]
                 line2 = line.split('.')[0]
-                image = os.path.join('/data/jyx/dbd/data/DBDdataset/shidatatset/image',line1)
-                gt = os.path.join('/data/jyx/dbd/data/DBDdataset/shidatatset/gt',line2+'.png')
+                image = os.path.join('./data/shidatatset/image',line1)
+                gt = os.path.join('./data/shidatatset/gt',line2+'.png')
                 image_path.append(image)
                 label_path.append(gt) 
             
@@ -66,46 +66,20 @@ class ImageData(data.Dataset):
 
         # EBD dataset with 1605 images
         elif dataset == 'EBD':
-            self.image_path = sorted( glob.glob('/data/jyx/dbd/data/Mydata1/image'+'/*'))
-            self.label_path =  sorted( glob.glob('/data/jyx/dbd/data/Mydata1/gt'+'/*'))   
-
-        # 300 clear images with wide DOF from EBD dataset
-        elif dataset == 'EBD300':
-            self.image_path = sorted( glob.glob('/data/jyx/dbd/data/clear/image'+'/*'))
-            self.label_path =  sorted( glob.glob('/data/jyx/dbd/data/clear/gt'+'/*')) 
-
-        # 1305 bokeh images with shallow DOF from EBD dataset
-        elif dataset == 'EBD1305':
-            self.image_path = sorted(glob.glob('/data/jyx/dbd/data/Mydata1300/image'+'/*'))
-            self.label_path = sorted(glob.glob('/data/jyx/dbd/data/Mydata1300/gt'+'/*'))
+            self.image_path = sorted( glob.glob('./data/EBD/image'+'/*'))
+            self.label_path =  sorted( glob.glob('./data/EBD/gt'+'/*'))   
 
         elif dataset == 'CTCUG':
-            self.image_path = sorted( glob.glob('/data/jyx/dbd/data/CTCUG/CTCUG_images'+'/*'))
-            self.label_path =  sorted( glob.glob('//data/jyx/dbd/data/CTCUG/CTCUG_gt'+'/*')) 
-
-        elif dataset == 'Other':
-            self.image_path = sorted( glob.glob('/data/jyx/DD_rexnext/dut'+'/*'))
-            self.label_path =  sorted( glob.glob('/data/jyx/dbd/data/DBDdataset/DUT/DUT-DBD_Dataset/gt'+'/*')) 
-
-        elif dataset == 'ShiAndDUT':
-            self.image_path = sorted( glob.glob('/data/jyx/dbd/data/Shi_DUT/image'+'/*'))
-            self.label_path =  sorted( glob.glob('/data/jyx/dbd/data/Shi_DUT/gt'+'/*'))   
-
-        elif dataset == 'Shi1AndDUT':
-            self.image_path = sorted( glob.glob('/data/jyx/dbd/data/Shi1_DUT/image'+'/*'))
-            self.label_path =  sorted( glob.glob('/data/jyx/dbd/data/Shi1_DUT/gt'+'/*'))  
-
-        elif dataset == 'Shi1':
-            self.image_path = sorted( glob.glob('/data/jyx/dbd/data/DBDdataset/shi_split/image'+'/*'))
-            self.label_path =  sorted( glob.glob('/data/jyx/dbd/data/DBDdataset/shi_split/gt'+'/*'))  
+            self.image_path = sorted( glob.glob('./data/CTCUG/CTCUG_images'+'/*'))
+            self.label_path =  sorted( glob.glob('./data/CTCUG/CTCUG_gt'+'/*')) 
 
         elif dataset == 'DUT':
             if not self.istrain:
-                self.image_path = sorted( glob.glob('/data/jyx/dbd/data/DBDdataset/DUT/DUT-DBD_Dataset/image'+'/*'))
-                self.label_path =  sorted( glob.glob('/data/jyx/dbd/data/DBDdataset/DUT/DUT-DBD_Dataset/gt'+'/*'))
+                self.image_path = sorted( glob.glob('./data/DUT/DUT-DBD_Dataset/image'+'/*'))
+                self.label_path =  sorted( glob.glob('./data/DUT/DUT-DBD_Dataset/gt'+'/*'))
             else:
-                self.image_path = sorted( glob.glob('/data/jyx/dbd/data/DBDdataset/DUT/DUT-DBD_Dataset/DUT600S_Training'+'/*'))
-                self.label_path =  sorted( glob.glob('/data/jyx/dbd/data/DBDdataset/DUT/DUT-DBD_Dataset/DUT600GT_Training'+'/*'))                
+                self.image_path = sorted( glob.glob('./data/DUT/DUT-DBD_Dataset/DUT600S_Training'+'/*'))
+                self.label_path =  sorted( glob.glob('./data/DUT/DUT-DBD_Dataset/DUT600GT_Training'+'/*'))                
 
         self.transform = transform
         self.t_transform = t_transform
