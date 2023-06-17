@@ -13,8 +13,8 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--test_dataset', type=str, default='Shi') #CTCUG Shi EBD DUT
 parser.add_argument('--pretrained', type=str) 
 parser.add_argument('--model', type=str, default='res') #vgg 
-parser.add_argument('--image_path',  type=str, default='/data/jyx/dbd/data/DBDdataset/shidatatset/image')
-parser.add_argument('--gt_path',  type=str, default='/data/jyx/dbd/data/DBDdataset/shidatatset/gt')
+parser.add_argument('--image_path',  type=str, default='./data/shidatatset/image')
+parser.add_argument('--gt_path',  type=str, default='./data/shidatatset/gt')
 opt = parser.parse_args()
 
 val_loader = get_loader(opt.image_path, opt.gt_path, 1, dataset=opt.test_dataset, mode='val', num_thread=8)
@@ -38,7 +38,7 @@ def test(val_loader, model):
             images, gts, size, _ = pack
             images, gts = images.to('cuda:0'), gts.to('cuda:0')
 
-            if 'Shi' == opt.test_dataset or 'CTCUG' == opt.test_dataset or 'Shi1' == opt.test_dataset:
+            if 'Shi' == opt.test_dataset or 'CTCUG' == opt.test_dataset:
                 gts = 1-gts
 
             preds,_,_ = model(images)
@@ -54,7 +54,7 @@ def test(val_loader, model):
                 preds[preds>0.5] = 1.0
                 preds[preds<=0.5] = 0.0
 
-                if 'Mydata'in opt.test_dataset:
+                if 'EBD'in opt.test_dataset:
                     gts = F.interpolate(gts, size=320, mode='nearest')
                     preds = F.interpolate(preds, size=320, mode='nearest')
 
