@@ -35,15 +35,13 @@ Traing Datasets | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
 ### Training
 * Download related datasets and put them to /D-DFFNet/data/.
 * Download depth pre-trained model and put it to /D-DFFNet/depth_pretrained/.
-* Set save_path in train_single.py and train_kd.py to your saving path.
 * Training in stage 1:
-`python train_single.py`
+`python train_single.py` The checkpoint is saved to /D-DFFNet/checkpoint/ as DFFNet.pth.
 * Training in stage 2:
-`python train_kd.py`
+`python train_kd.py` The checkpoint is saved to /D-DFFNet/checkpoint/ as D-DFFNet.pth.
 
 
 ### Testing
-* Set path in test.sh to the pretrained model.
 * `bash test.sh`
 
 ## Acknowledgements
