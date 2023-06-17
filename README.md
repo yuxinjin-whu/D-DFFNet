@@ -33,7 +33,7 @@ Traing Datasets | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
 * glob
 
 ### Training
-* Set dataset paths in data.py.
+* Download related datasets and put them to /D-DFFNet/data/.
 * Download depth pre-trained model and put it to /D-DFFNet/depth_pretrained/.
 * Set save_path in train_single.py and train_kd.py to your saving path.
 * Training in stage 1:
