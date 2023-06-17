@@ -131,8 +131,8 @@ parser.add_argument('--beta',  type=float, default=0.5)
 parser.add_argument('--gamma',  type=float, default=0.9)  #2.0 0.8
 parser.add_argument('--train_dataset', type=str, default='Shi')
 parser.add_argument('--test_dataset', type=str, default='Shi')
-parser.add_argument('--image_path',  type=str, default='/data/jyx/dbd/data/DBDdataset/shidatatset/image')
-parser.add_argument('--gt_path',  type=str, default='/data/jyx/dbd/data/DBDdataset/shidatatset/gt')
+parser.add_argument('--image_path',  type=str, default='./data/shidatatset/image')
+parser.add_argument('--gt_path',  type=str, default='./data/shidatatset/gt')
 opt = parser.parse_args()
 
 seed = 42
@@ -145,12 +145,12 @@ torch.backends.cudnn.benchmark = True
 
 model_depth = MidasNet()
 model_depth.cuda()
-model_depth.load_state_dict(torch.load("/data/jyx/dbd/D-DFFNet_final/depth_pretrained/midas_v21-f6b98070.pt"))
+model_depth.load_state_dict(torch.load("./depth_pretrained/midas_v21-f6b98070.pt"))
 
 model_dbd = PDnet_ResNest_4F_SL_LA()
 model_dbd.cuda()
 # training checkpoint from stage 1.
-model_dbd.load_state_dict(torch.load('/data/jyx/dbd/D-DFFNet/checkpoint/Ablation_study/DFFNet_ablation/DFFNet.pth'))
+model_dbd.load_state_dict(torch.load('./checkpoint/DFFNet.pth'))
 
 model = PDnet_ResNest_4F_SL_LA()
 model.cuda()
@@ -297,7 +297,7 @@ def train(train_loader, model, optimizer, epoch):
             format(datetime.now(), epoch, opt.epoch, loss_sum/len(train_loader), sum_mae/len(train_loader)))
 
 print("Let's go!")
-save_path = '/data/jyx/dbd/D-DFFNet/checkpoint/Ablation_study/DFFNet_ablation/'
+save_path = './checkpoint/'
 for epoch in range(1, opt.epoch):
     train(train_loader, model, optimizer, epoch)
 
