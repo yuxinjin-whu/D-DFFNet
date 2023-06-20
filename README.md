@@ -51,7 +51,7 @@ Codes for depth model and depth pre-trained model are from [MiDaS](https://githu
 Part of our code is based upon [EaNet](https://github.com/geovsion/EaNet) and [CPD](https://github.com/wuzhe71/CPD).
 
 ## Citation
-
+If you find our code & paper useful, please cite us:
 ```
 @inproceedings{jin2023depth,
   title={Depth and DOF Cues Make Better Defocus Blur Detection},
@@ -62,6 +62,6 @@ Part of our code is based upon [EaNet](https://github.com/geovsion/EaNet) and [C
 ```
 
 ## Contact
-If you have any question or suggestion, please contact (Yuxin Jin jinyuxin@whu.edu.cn).
+If you have any questions or suggestions, please contact (Yuxin Jin jinyuxin@whu.edu.cn).
 
 
