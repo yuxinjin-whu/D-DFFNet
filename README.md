@@ -1,6 +1,8 @@
-# [ICME 2023] Depth and DOF Cues Make Better Defocus Blur Detection
+#  Depth and DOF Cues Make Better Defocus Blur Detection
 
-This repository contains the official Pytorch implementation of our ICME 2023 paper.
+This is a PyTorch implementation of [D-DFFNet](https:tdb), which detects defocus blur region with depth prior and DOF cues.
+Our D-DFFNet achieves SOTA on public benchmarks (e.g. DUT, CUHK, and CTCUG) with different splits.
+Besides, we collect a new benchmark for analysis DBD model with more DOF settings.
 
 ## Dataset
 We collect a new dataset EBD for testing. Please download from this link if you plan to use it. [EBD dataset](https://pan.baidu.com/s/1mL9gYu-2tnKR4lQoB3jAOA?pwd=cqoz) 
