@@ -1,6 +1,6 @@
 #  Depth and DOF Cues Make Better Defocus Blur Detection
 
-This is a PyTorch implementation of [D-DFFNet]([https:tdb](https://arxiv.org/abs/2306.11334)), which detects defocus blur region with depth prior and DOF cues.
+This is a PyTorch implementation of [D-DFFNet]([[https:tdb](https://arxiv.org/abs/2306.11334)]), which detects defocus blur region with depth prior and DOF cues.
 Our D-DFFNet achieves SOTA on public benchmarks (e.g. DUT, CUHK, and CTCUG) with different splits.
 Besides, we collect a new benchmark for analysis DBD model with more DOF settings.
 
