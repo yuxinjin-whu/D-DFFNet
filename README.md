@@ -4,6 +4,9 @@ This is a PyTorch implementation of [D-DFFNet](https://arxiv.org/abs/2306.11334)
 Our D-DFFNet achieves SOTA on public benchmarks (e.g. DUT, CUHK, and CTCUG) with different splits.
 Besides, we collect a new benchmark for analysis DBD model with more DOF settings.
 
+## Quantitative Result
+![Quantitative comparison with methods training on CUHK-TR-1.](assets/result.png)
+
 ## Dataset
 We collect a new dataset EBD for testing. Please download from this link if you plan to use it. [EBD dataset](https://pan.baidu.com/s/1mL9gYu-2tnKR4lQoB3jAOA?pwd=cqoz) 
 
