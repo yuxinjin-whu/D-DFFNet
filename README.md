@@ -10,10 +10,9 @@ We use test.py and test_iou.py to get the scores of DD, BR2Net, and our methods 
 We use test1.py and test1_iou.py to get the scores of other methods.
 
 ## Qualitative Result
-![Quantitative comparison with methods training on CUHK-TR-1.](assets/1.png) ![Quantitative comparison with methods training on CUHK-TR-1.](assets/1.jpg)
 <figure class="half">
-    <img src="assets/1.png">
-    <img src="assets/1.jpg">
+    <img src="assets/1.png",width="100">
+    <img src="assets/1.jpg",width="100">
 </figure>
 
 ## Dataset
