@@ -9,6 +9,9 @@ Besides, we collect a new benchmark for analysis DBD model with more DOF setting
 We use test.py and test_iou.py to get the scores of DD, BR2Net, and our methods (including DFFNet, R-DFFNet, and D-DFFNet).
 We use test1.py and test1_iou.py to get the scores of other methods.
 
+## Qualitative Result
+![Qualitative result with D-DFFNet training on CUHK-TR-1.](assets/1.jpg)(assets/1.png)
+
 ## Dataset
 We collect a new dataset EBD for testing. Please download from this link if you plan to use it. [EBD dataset](https://drive.google.com/file/d/1pkgfGSKx80Eq1_kq6-PwYl6zSYXwkqS8/view?usp=sharing) 
 
