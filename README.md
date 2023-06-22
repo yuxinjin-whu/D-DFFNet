@@ -11,6 +11,10 @@ We use test1.py and test1_iou.py to get the scores of other methods.
 
 ## Qualitative Result
 ![Quantitative comparison with methods training on CUHK-TR-1.](assets/1.png) ![Quantitative comparison with methods training on CUHK-TR-1.](assets/1.jpg)
+<figure class="half">
+    <img src="assets/1.png">
+    <img src="assets/1.jpg">
+</figure>
 
 ## Dataset
 We collect a new dataset EBD for testing. Please download from this link if you plan to use it. [EBD dataset](https://drive.google.com/file/d/1pkgfGSKx80Eq1_kq6-PwYl6zSYXwkqS8/view?usp=sharing) 
