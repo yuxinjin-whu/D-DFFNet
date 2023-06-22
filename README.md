@@ -38,6 +38,8 @@ Traing Datasets | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
 * Numpy 1.21.2
 * PIL
 * glob
+* imageio
+* matplotlib
 
 ### Training
 * Download related datasets and put them to /D-DFFNet/data/.
