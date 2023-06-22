@@ -11,8 +11,7 @@ We use test1.py and test1_iou.py to get the scores of other methods.
 
 ## Qualitative Result
 <figure class="half">
-    <img src="assets/1.png" width="100">
-    <img src="assets/1.jpg" width="100">
+    <img src="assets/1.png" width="300"><img src="assets/1.jpg" width="300">
 </figure>
 
 ## Dataset
