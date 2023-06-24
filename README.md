@@ -70,7 +70,7 @@ If you find our code & paper useful, please cite us:
 @inproceedings{jin2023depth,
   title={Depth and DOF Cues Make Better Defocus Blur Detection},
   author={Jin, Yuxin and Qian, Ming and Xiong, Jincheng and Xue, Nan and Xia, Gui-song},
-  booktitle={ICME},
+  booktitle={IEEE International Conference on Multimedia and Expo},
   year={2023},
 }
 ```
