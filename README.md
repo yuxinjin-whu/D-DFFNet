@@ -10,7 +10,7 @@ Besides, we collect a new benchmark for analysis DBD model with more DOF setting
 
 ## Quantitative Result
 ![Quantitative comparison with methods training on CUHK-TR-1.](assets/result.png)
-We compare our method with 14 recent methods, including DBDF, LBP, HiFST, BTBNet and its later version BTBNet2, CENet, BR2Net, AENet, EFENet, DD, DefusionNet2, IS2CNet, LOCAL, and MA-GANet. We retrained the BR2Net model and used data from the papers for LOCAL and MA- GANet, as they did not provide codes and results. For the other methods, we downloaded their results or pre-trained models and tested them using our test1.py and test1_iou.py as testing code.
+We compare our method with 14 recent methods, including DBDF, LBP, HiFST, BTBNet and its later version BTBNet2, CENet, BR2Net, AENet, EFENet, [DD](https://github.com/vinthony/depth-distillation), DefusionNet2, IS2CNet, LOCAL, and MA-GANet. We retrained the BR2Net model and used data from the papers for LOCAL and MA- GANet, as they did not provide codes and results. For the other methods, we downloaded their results or pre-trained models and tested them using our test1.py and test1_iou.py as testing code.
 
 
 
@@ -19,7 +19,7 @@ We compare our method with 14 recent methods, including DBDF, LBP, HiFST, BTBNet
 We collect a new dataset EBD for testing. Please download from this link if you plan to use it. [EBD dataset](https://drive.google.com/file/d/1pkgfGSKx80Eq1_kq6-PwYl6zSYXwkqS8/view?usp=sharing) 
 
 ## Pretrained Models
-* We provide pretrained models of our DFFNet and D-DFFNet using three different training data.
+* We provide pre-trained models of our DFFNet and D-DFFNet using three different training data.
 
  Traing Datasets | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
  ---- | ----- | ------  |  ------
