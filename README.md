@@ -10,8 +10,7 @@ Besides, we collect a new benchmark for analysis DBD model with more DOF setting
 
 ## Quantitative Result
 ![Quantitative comparison with methods training on CUHK-TR-1.](assets/result.png)
-We use test.py and test_iou.py to get the scores of DD, BR2Net, and our methods (including DFFNet, R-DFFNet, and D-DFFNet).
-We use test1.py and test1_iou.py to get the scores of other methods.
+We compare our method with 14 recent methods, including DBDF, LBP, HiFST, BTBNet and its later version BTBNet2, CENet, BR2Net, AENet, EFENet, DD, DefusionNet2, IS2CNet, LOCAL, and MA-GANet. We retrained the BR2Net model and used data from the papers for LOCAL and MA- GANet, as they did not provide codes and results. For the other methods, we downloaded their results or pretrained models and tested them using our test1.py as testing code.
 
 
 
