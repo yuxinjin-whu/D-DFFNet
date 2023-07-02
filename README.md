@@ -2,6 +2,9 @@
 ### Yuxin Jin, Ming Qian, Jincheng Xiong, Nan Xue, Gui-Song Xia
 Accepted by  IEEE International Conference on Multimedia and Expo (ICME) 2023
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/depth-and-dof-cues-make-a-better-defocus-blur/defocus-blur-detection-on-ctcug)](https://paperswithcode.com/sota/defocus-blur-detection-on-ctcug?p=depth-and-dof-cues-make-a-better-defocus-blur)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/depth-and-dof-cues-make-a-better-defocus-blur/defocus-blur-detection-on-cuhk)](https://paperswithcode.com/sota/defocus-blur-detection-on-cuhk?p=depth-and-dof-cues-make-a-better-defocus-blur)
+
 This is a PyTorch implementation of [D-DFFNet](https://arxiv.org/abs/2306.11334), which detects defocus blur region with depth prior and DOF cues.
 Our D-DFFNet achieves SOTA on public benchmarks (e.g. DUT, CUHK, and CTCUG) with different splits.
 Besides, we collect a new benchmark for analysis DBD model with more DOF settings.
