@@ -1,5 +1,5 @@
 #  [Depth and DOF Cues Make Better Defocus Blur Detection](https://arxiv.org/abs/2306.11334)
-### Yuxin Jin, Ming Qian, Jincheng Xiong, Nan Xue, Gui-Song Xia
+### Yuxin Jin, [Ming Qian](https://qianmingduowan.github.io/), Jincheng Xiong, [Nan Xue](https://xuenan.net/), [Gui-Song Xia](http://www.captain-whu.com/xia_En.html)
 Accepted by  IEEE International Conference on Multimedia and Expo (ICME) 2023
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/depth-and-dof-cues-make-a-better-defocus-blur/defocus-blur-detection-on-ctcug)](https://paperswithcode.com/sota/defocus-blur-detection-on-ctcug?p=depth-and-dof-cues-make-a-better-defocus-blur)
