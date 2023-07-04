@@ -23,9 +23,9 @@ We compare our method with 14 recent methods, including DBDF, [LBP](https://gith
 
 
 ## Dataset
-We collect a new dataset EBD for testing. Please download from this link if you plan to use it. 
-Comparisons with existing DBD test datasets are as following. 
-[EBD dataset](https://drive.google.com/file/d/1pkgfGSKx80Eq1_kq6-PwYl6zSYXwkqS8/view?usp=sharing) 
+We collect a new dataset EBD for testing. Please download from this link if you plan to use it. [EBD dataset](https://drive.google.com/file/d/1pkgfGSKx80Eq1_kq6-PwYl6zSYXwkqS8/view?usp=sharing) 
+Comparisons with existing DBD test datasets are as follows. 
+
 
 ![Comparison with existing DBD test datasets.](assets/EBD.png)
 ## Pretrained Models
