@@ -25,9 +25,7 @@ We compare our method with 14 recent methods, including DBDF, [LBP](https://gith
 ## Dataset
 We collect a new dataset EBD for testing. Please download from this link if you plan to use it. [EBD dataset](https://drive.google.com/file/d/1pkgfGSKx80Eq1_kq6-PwYl6zSYXwkqS8/view?usp=sharing) 
 
-<div>
-    <img src="assets/EBD.png" width="500">
-</div>
+![Comparison with existing DBD test datasets.](assets/EBD.png)
 ## Pretrained Models
 * We provide pre-trained models of our DFFNet and D-DFFNet using three different training data.
 
