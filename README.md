@@ -39,7 +39,7 @@ Comparisons with existing DBD test datasets are as follows.
 
 
 ## Results
-We provide results on four test datasets. Since we use three different training data for fair comparison with previous works, here we provide all results related to the three different training data.
+We provide results on four test datasets. Since we use three different training data for a fair comparison with previous works, we provide all results related to the three different training data.
 
 Traing Datasets | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
  ---- | ----- | ------  |  ------
@@ -59,7 +59,7 @@ Traing Datasets | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
 
 ### Training
 * Download related datasets and put them to /D-DFFNet/data/.
-* Download depth pre-trained model and put it to /D-DFFNet/depth_pretrained/.
+* Download the depth pre-trained model and put it to /D-DFFNet/depth_pretrained/.
 * Training in stage 1:
 `python train_single.py` The checkpoint is saved to /D-DFFNet/checkpoint/ as DFFNet.pth.
 * Training in stage 2:
@@ -70,7 +70,7 @@ Traing Datasets | CUHK-TR-1  | CUHK-TR-1&DUT-TR | CUHK-TR-2&DUT-TR
 * `bash test.sh`
 
 ## Acknowledgements
-Codes for depth model and depth pre-trained model are from [MiDaS](https://github.com/isl-org/MiDaS).  
+Codes for the depth model and depth pre-trained model are from [MiDaS](https://github.com/isl-org/MiDaS).  
 Part of our code is based upon [EaNet](https://github.com/geovsion/EaNet) and [CPD](https://github.com/wuzhe71/CPD).
 
 ## Citation
