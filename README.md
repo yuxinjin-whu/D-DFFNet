@@ -1,4 +1,4 @@
-#  [Depth and DOF Cues Make Better Defocus Blur Detection](https://arxiv.org/abs/2306.11334) 
+#  [Depth and DOF Cues Make Better Defocus Blur Detector](https://arxiv.org/abs/2306.11334) 
 ### Yuxin Jin, [Ming Qian](https://qianmingduowan.github.io/), Jincheng Xiong, [Nan Xue](https://xuenan.net/), [Gui-Song Xia](http://www.captain-whu.com/xia_En.html)
 
 Accepted by  IEEE International Conference on Multimedia and Expo (ICME) 2023
@@ -77,7 +77,7 @@ Part of our code is based upon [EaNet](https://github.com/geovsion/EaNet) and [C
 If you find our code & paper useful, please cite us:
 ```
 @inproceedings{jin2023depth,
-  title={Depth and DOF Cues Make Better Defocus Blur Detection},
+  title={Depth and DOF Cues Make Better Defocus Blur Detector},
   author={Jin, Yuxin and Qian, Ming and Xiong, Jincheng and Xue, Nan and Xia, Gui-song},
   booktitle={IEEE International Conference on Multimedia and Expo},
   year={2023},
